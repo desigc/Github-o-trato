@@ -38,6 +38,7 @@ body {
   width: 400px;
   color: black;
   font-weight: bold;
+  padding-left: 15px;
 }
 
 .btn {
@@ -65,17 +66,18 @@ body {
   list-style: none;
   display: flex;
   padding-left: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: 20px;
 }
 
 .list__item {
-  height: 120px;
-  width: 80px;
+  flex-grow: 1;
   font-size: 80px;
   text-transform: uppercase;
+  text-align: center;
   background-color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin-right: 20px;
   box-shadow: 0 2px 14px rgba(0,0,0,0.5);
   color: rgb(10, 78, 10);
